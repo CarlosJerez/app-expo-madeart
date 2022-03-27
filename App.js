@@ -39,6 +39,7 @@ export default function App() {
           name="Favoritos"
           component={FavoritoScreen}
           options={{
+            tabBarBadge: 3,
             tabBarLabel: "Favoritos",
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="heart" color={color} size={size} />
